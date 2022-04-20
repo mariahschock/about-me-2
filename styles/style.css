@@ -54,6 +54,9 @@ section {
     border: solid 2px var(--color1);
 }
 
+#favorite-animal {
+    background-color:bisque
+}
 header {
     display: flex;
     justify-content: flex-end;
@@ -78,6 +81,10 @@ h2 {
 
 header img {
     height: var(--header-height);
+}
+
+#pronouns {
+    font-style: italic;
 }
 
 p {
