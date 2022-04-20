@@ -41,7 +41,7 @@ main {
 }
 
 section {
-    background-color: var(--color5);
+    background-color: palegoldenrod;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -61,6 +61,11 @@ header {
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    color:blueviolet
+}
 
 h2 {
     font-size: 1.8rem;
@@ -77,6 +82,8 @@ header img {
 
 p {
     margin: var(--gutter);
+    text-align: center;
+    color:darkviolet
 }
 
 footer {
