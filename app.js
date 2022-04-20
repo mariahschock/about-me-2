@@ -5,8 +5,7 @@ const btn = document.getElementById('btn');
 const animalDiv = document.getElementById('animalDiv');
 // set event listeners 
 btn.addEventListener('click', () => {
-    console.log('btn clicked');
-    animalDiv.classList.remove('hidden');
+    animalDiv.classList.toggle('hidden');
 });
 
     // get user input

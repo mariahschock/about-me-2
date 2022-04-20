@@ -98,6 +98,10 @@ p {
     color:darkviolet
 }
 
+img {
+    width: 300px;
+}
+
 footer {
     position: fixed;
     width: 100%;
