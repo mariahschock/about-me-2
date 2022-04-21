@@ -41,7 +41,7 @@ main {
 }
 
 section {
-    background-color: palegoldenrod;
+    background-color: var(--color5);
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -54,25 +54,12 @@ section {
     border: solid 2px var(--color1);
 }
 
-#favorite-animal {
-    background-color:bisque
-}
-
-.hidden {
-    display: none;
-}
-
 header {
     display: flex;
     justify-content: flex-end;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
-}
-h1 {
-    font-weight: bold;
-    font-style: italic;
-    color:darkviolet;
 }
 
 h2 {
@@ -88,18 +75,8 @@ header img {
     height: var(--header-height);
 }
 
-#pronouns {
-    font-style: italic;
-}
-
 p {
     margin: var(--gutter);
-    text-align: center;
-    color:darkviolet
-}
-
-img {
-    width: 300px;
 }
 
 footer {
